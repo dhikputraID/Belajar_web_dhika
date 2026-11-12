@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,8 +37,27 @@
             color: white;
             text-decoration: none;
         }
+
+        @media screen and (max-width: 600px) {
+            .navbar {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .menu-link {
+                flex-direction: column;
+                margin-top: 15px;
+                width: 100%;
+            }
+
+            .menu-link li {
+                padding: 10px 0;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            }
+        }
     </style>
 </head>
+
 <body>
     <nav class="navbar">
         <div class="logo">SMK MUH 3 TANGSEL</div>
@@ -48,4 +68,5 @@
         </ul>
     </nav>
 </body>
+
 </html>
