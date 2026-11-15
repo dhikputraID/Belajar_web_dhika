@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PTS Praktik - Landing Page Toko Online</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">
+            <h2>OurMobile</h2>
+        </div>
+        <ul>
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#fitur">Katalog</a></li>
+            <li><a href="#interaksi">Langganan</a></li>
+        </ul>
+    </div>
+    
+    <!-- Hero Section -->
+    <div class="hero" id="beranda">
+        <div class="hero-teks">
+            <h1>Temukan HP sesuai dengan kebutuhan-mu!</h1>
+            <p>Tecno Camon 40 Pro 5G [ Discount 25% ]</p>
+            <a href="#fitur" class="tombol-utama">Pesan Sekarang!</a>
+        </div>
+        <div class="hero-gambar">
+            <img src="img/tecno_camon40_pro5G.png" alt="Gambar HP yang sedang discount">
+        </div>
+    </div>
+    
+    <!-- Content Section -->
+    <div class="bagian-konten" id="fitur">
+        <h2>Produk yang saat ini tersedia:</h2>
+        <div class="wadah-tiga-kolom">
+            <!-- Produk 1 -->
+            <div class="kartu">
+                <img src="img/tecno_camon40_pro5G.png" alt="Display HP Tecno Camon 40 Pro 5G">
+                <h3>Tecno Camon 40 Pro 5G</h3>
+                <p>Kamera 50 MP OIS, layar AMOLED 144Hz, chipset Dimensity 7300 Ultimate, dan baterai 5.200 mAh</p>
+                <span class="harga">Rp3.599.999</span>
+                <button type="button">Tambah ke Keranjang</button>
+            </div>
+            <!-- Produk 2 -->
+            <div class="kartu">
+                <img src="img/infinix_note50_pro.png" alt="Display HP Infinix Note 50 Pro">
+                <h3>Infinix Note 50 Pro</h3>
+                <p>Layar AMOLED 144Hz, kamera 50 MP OIS, fast charging 90W, chipset Helio G100, dan wireless charging 30W</p>
+                <span class="harga">Rp3.099.999</span>
+                <button type="button">Tambah ke Keranjang</button>
+            </div>
+            <!-- Produk 3 -->
+            <div class="kartu">
+                <img src="img/samsung_galaxya26_5G.png" alt="Display HP Samsung Galaxy A26 5G">
+                <h3>Samsung Galaxy A26 5G</h3>
+                <p>Layar Super AMOLED, kamera OIS, jaringan 5G, dan dukungan pembaruan software jangka panjang</p>
+                <span class="harga">Rp4.195.000</span>
+                <button type="button">Tambah ke Keranjang</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Interaction Section -->
+    <div class="bagian-interaksi" id="interaksi">
+        <h2>Berlangganan Promo!</h2>
+        <form action="#" method="post" class="form-pts">
+            <!-- Input Nama -->
+            <div class="grup-input">
+                <label for="nama">Nama Lengkap:</label><br>
+                <input type="text" name="nama" id="nama" placeholder="Masukkan nama anda..." required>
+            </div>
+            <br>
+            <!-- Input Email -->
+            <div class="grup-input">
+                <label for="email">Alamat Email:</label><br>
+                <input type="email" name="email" id="email" placeholder="Masukkan email anda..." required>
+            </div>
+            <br>
+            <!-- Input Favorit -->
+            <div class="grup-input">
+                <label for="nama">Produk Favorit</label><br>
+                <select name="produk_favorit" id="produk_favorit">
+                    <option value="" selected disabled>---[ Pilih Produk Favorit-mu ]---</option>
+                    <option value="tecno_camon40_pro5G">Tecno Camon 40 Pro 5G</option>
+                    <option value="infinix_note50_pro">Infinix Note 50 Pro</option>
+                    <option value="samsung_galaxya26_5G">Samsung Galaxy A26 5G</option>
+                </select>
+            </div>
+            <br>
+            <button type="submit" class="tombol-kirim">Langganan Diskon</button>
+        </form>
+    </div>
+    
+    <!-- Footer -->
+    <div class="footer">
+        <!-- Copyright -->
+        <p>&copy; 2026 - Dhika Putra Pratama, All Rights Reserved</p>
+        <!-- Jam Operasional-->
+        <p>Jam Operasional Toko</p>
+        <p>Senin - Jumat: 08.00 - 22.00</p>
+        <p>Sabtu - Minggu: 08.00 - 23.00</p>
+        <!-- Customer Service -->
+        <p>Customer Service</p>
+        <p>WhatsApp: 0812-****-****</p>
+        <p>Senin - Minggu: 08.00 - 17.00</p>
+    </div>
+</body>
